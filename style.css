@@ -1,0 +1,121 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+    background-color: rgb(231, 118, 199);
+}
+
+h1 {
+    text-align: center;
+    font-size: 5rem;
+    font-family: 'Festive', cursive;
+}
+
+h3 {
+    background-color: rgb(187, 249, 249);
+    text-align: center;
+}
+
+p {
+    background-color: rgb(187, 249, 249);
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    background-color: rgb(187, 249, 249);
+}
+
+li:not(:first-child) {
+    margin-top: 10px; 
+  }
+
+  .bold {
+    font-weight: bold;
+    background-color: rgb(187, 249, 249);
+  }
+
+#new-party-form {
+
+}
+
+#party-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+    align-items: center;
+    margin: 2rem 5rem 2rem 5rem;
+}
+
+.party-details {
+    border-radius: 1rem;
+    border-width: .5rem;
+    border-radius: .5rem;
+    border-style: solid;
+    padding: 1rem;
+    background-color: rgb(187, 249, 249);
+}
+
+.party {
+    border-radius: 1rem;
+    border-width: .5rem;
+    border-style: solid;
+    padding: 1rem;
+    background-color: rgb(187, 249, 249);
+}
+
+#party-name {
+    background-color: rgb(187, 249, 249);
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.guest {
+    background-color: rgb(187, 249, 249);
+}
+
+.guest-list {
+    background-color: rgb(187, 249, 249);
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.guest-list li{
+    background-color: rgb(187, 249, 249);
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-between; /* Center-align child divs */
+    align-items: center; /* Center vertically */
+    padding: 10px;
+    border: 1px solid rgb(231, 118, 199);
+    margin-top: 1rem;
+    border-radius: 1rem;
+    }
+
+.details-button {
+    margin-top: .5rem;
+    padding: .5rem;
+    border-radius: 1rem;
+    font-weight: bold;
+}
+
+.delete-button {
+    margin-top: 1rem;
+    margin-left: 1.5rem;
+    padding: .5rem;
+    border-radius: 1rem;
+    font-weight: bold;
+    background-color: rgb(247, 67, 67);
+}
+
+.close-button {
+    display: block;
+    margin: 0 auto; /* Horizontally center the button */
+    padding: 0.5rem;
+    border-radius: 1rem;
+    font-weight: bold;
+    background-color: rgb(231, 118, 199);
+}
